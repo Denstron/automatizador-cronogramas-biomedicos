@@ -33,5 +33,5 @@ Procesando 1056 equipos biomédicos activos.
 
 ## Autor
 
-Daniel España — Ingeniero Biomédico
+Daniel España Vargas — Ingeniero Biomédico
 Registro INVIMA | Resolución 3100
