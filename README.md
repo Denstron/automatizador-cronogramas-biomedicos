@@ -1,46 +1,75 @@
 # 🏥 Automatizador de Cronogramas Biomédicos
 
-Sistema automático para gestión de mantenimiento de equipos médicos.
-Detecta vencimientos, clasifica por urgencia, genera reportes y envía 
-notificaciones automáticas por email.
+Sistema web para gestión de mantenimiento de equipos médicos. Detecta vencimientos, clasifica por urgencia, genera informes y envía notificaciones automáticas.
 
-## ¿Qué hace?
+## 🌐 Demo en vivo
+👉 **[Probar la app aquí](https://biomedico-demo.streamlit.app/)**
+
+---
+
+## 📸 Capturas
+
+### Login privado
+![Login](screenshots/login.png)
+
+### Dashboard principal
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## ✅ ¿Qué hace?
 
 - Lee cronogramas de mantenimiento desde Excel
-- Analiza 1000+ equipos en segundos
+- Analiza más de 1000 equipos en segundos
 - Clasifica cada equipo por estado:
   - 🔴 Mantenimiento este mes
-  - 🟡 Mantenimiento próximo mes
-  - 🟠 Mantenimiento en 2 meses
+  - 🟡 Próximo mes
+  - 🟠 En 2 meses
   - 🟢 Sin urgencia
-- Genera reporte Excel con colores y 26 hojas por área
-- Genera reporte PDF profesional
-- Envía email automático con equipos del mes y archivos adjuntos
-- Soporta múltiples destinatarios (técnicos por área)
+- Dashboard web con login privado por roles
+- Técnicos marcan equipos como completados en tiempo real
+- Jefe ve el progreso desde cualquier dispositivo
+- Google Sheets como base de datos en tiempo real
+- Genera reportes Excel con colores por área
+- Envía emails automáticos con equipos del mes
 
-## Tecnologías
+---
+
+## 🛠️ Tecnologías
 
 - Python 3
+- Streamlit
 - pandas
-- openpyxl
-- reportlab
+- gspread + Google Sheets API
+- OpenPyXL
 - smtplib
 
-## Versiones
+---
 
-- V1: Análisis y reporte básico
-- V2: Colores automáticos en Excel
-- V3: Filtros por área + reporte PDF
-- V4: Notificaciones automáticas por email
+## 📦 Versiones
 
-## Caso de uso real
+| Versión | Descripción |
+|---------|-------------|
+| V1 | Análisis y reporte básico |
+| V2 | Colores automáticos en Excel |
+| V3 | Filtros por área + PDF |
+| V4 | Notificaciones automáticas por email |
+| V5 | App web con dashboard interactivo |
+| V5.1 | Login privado + Google Sheets en tiempo real |
 
-Desarrollado para ESE Hospital San Rafael Yolombó.
-Procesando 1056 equipos biomédicos en 26 áreas.
-Usado actualmente por el equipo de ingeniería biomédica.
+---
 
-## Autor
+## 🏨 Caso de uso real
 
-Daniel España Vargas — Ingeniero Biomédico  
+Desarrollado para **ESE Hospital San Rafael Yolombó**.
+- 1056 equipos biomédicos
+- 26 áreas del hospital
+- Usado actualmente por el equipo de ingeniería biomédica
+
+---
+
+## 👤 Autor
+
+**Daniel España Vargas** — Ingeniero Biomédico  
 Registro INVIMA | Resolución 3100  
-github.com/Denstron
+[github.com/Denstron](https://github.com/Denstron)
