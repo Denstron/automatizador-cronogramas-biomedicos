@@ -11,7 +11,7 @@ Sistema web para gestión de mantenimiento de equipos médicos. Detecta vencimie
 
 ![Login](login.png.png)
 
-![Dashboard](panel.png.png)
+![Dashboard](dashboard.png.png)
 
 ---
 
